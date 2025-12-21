@@ -28,11 +28,11 @@ public class Main {
 
         student[] students = new student[5];
 
-        students[0] = new student("Ali Khan", "S001", "CS");
-        students[1] = new student("Amina Noor", "S002", "IT");
-        students[2] = new student("John Lee", "S003", "SE");
-        students[3] = new student("Maria Cruz", "S004", "CS");
-        students[4] = new student("David Kim", "S005", "DS");
+        students[0] = new student("Aimuhamet Aldiar", "S001", "CS");
+        students[1] = new student("Nayanuly Maksat", "S002", "IT");
+        students[2] = new student("Muratbek Akyl", "S003", "SE");
+        students[3] = new student("Maksut Alibi", "S004", "CS");
+        students[4] = new student("Maratov Nursultan", "S005", "DS");
 
         students[0].setGpa(3.8); students[0].addCredits(90);
         students[1].setGpa(3.2); students[1].addCredits(75);
@@ -40,7 +40,7 @@ public class Main {
         students[3].setGpa(2.9); students[3].addCredits(60);
         students[4].setGpa(3.6); students[4].addCredits(85);
 
-        course course = new course("OOP", "Dr. Smith", 5);
+        course course = new course("OOP", "Aidana Aidynkyzy ", 5);
         for (int i = 0; i < 5; i++)
             course.addStudent(students[i], i);
 
