@@ -13,7 +13,7 @@ public class student {
         this.credits = 0;
     }
 
-    // getters & setters
+
     public String getName() { return name; }
     public String getId() { return id; }
     public String getMajor() { return major; }
